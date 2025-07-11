@@ -1,14 +1,13 @@
 # SysmonLite: Endpoint Threat Visibility Tool
 
-**SysmonLite** is a lightweight, local threat detection tool for Linux systems. It collects process, network, crontab, and systemd activity — then analyzes the data for suspicious behavior using rule-based logic, mimicking early-stage EDR/ SIEM capabilities.
-
+**SysmonLite** is a  threat detection tool for Linux systems. It collects process, network, crontab, and systemd activitythen analyzes the data for suspicious behaviors
 
 ##  Features
 
-- 🔍 Process & command-line inspection
-- 🌐 Network connection monitoring
-- 📅 Crontab entry analysis
-- ⚙️ Systemd service scan
+-  Process & command-line inspection
+-  Network connection monitoring
+-  Crontab entry analysis
+-  Systemd service scan
 ---
 
 
@@ -38,12 +37,12 @@
 - Tkinter (usually comes with Python)
 
 USAGE:
-CLI mode:python main.py
+CLI mode:python main.py<br/>
 
-GUI mode:python gui.py
+GUI mode:python gui.py<br/>
 
-Educational Purpose Only
+Educational Purpose Only<br/>
 SysmonLite is built for learning, testing, and security awareness. It is not a full EDR or anti-virus system.
 
-License
+License<br/>
 This project is licensed under the MIT License.
